@@ -1,0 +1,26 @@
+{
+  "rest": {
+    "shoulder_pan.pos": 1.0,
+    "shoulder_lift.pos": -97.3,
+    "elbow_flex.pos": 99.3,
+    "wrist_flex.pos": 96.9,
+    "wrist_roll.pos": 0.0,
+    "gripper.pos": 0.6
+  },
+  "presenting": {
+    "shoulder_pan.pos": -69.7,
+    "shoulder_lift.pos": -99.7,
+    "elbow_flex.pos": 20.8,
+    "wrist_flex.pos": 100.0,
+    "wrist_roll.pos": -0.1,
+    "gripper.pos": 0.1
+  },
+  "comeforward": {
+    "shoulder_pan.pos": -3.3,
+    "shoulder_lift.pos": 41.9,
+    "elbow_flex.pos": -54.7,
+    "wrist_flex.pos": -73.9,
+    "wrist_roll.pos": 0.1,
+    "gripper.pos": 0.1
+  }
+}

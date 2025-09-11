@@ -1,0 +1,5 @@
+ROBOT_PORT=/dev/tty.XXXXXXXXX
+ROBOT_ID=mythos_arm
+GROQ_API_KEY=XXXXXXXXX
+MODEL = "openai/gpt-oss-120b"
+

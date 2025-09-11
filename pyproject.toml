@@ -1,0 +1,14 @@
+[project]
+name = "so101arm-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "groq>=0.31.1",
+    "lerobot>=0.3.3",
+    "mcp[cli]>=1.13.1",
+    "openai>=1.107.1",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+]
