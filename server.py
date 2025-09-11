@@ -5,10 +5,11 @@ from dotenv import load_dotenv
 from lerobot.robots.so101_follower import SO101Follower, SO101FollowerConfig
 from mcp.server.fastmcp import FastMCP
 
+
 # ---- env & constants ----
 load_dotenv()
 POSE_FILE = Path("saved_positions.json")
-_PERSIST = True  # True = keep one robot connection alive for the whole process
+_PERSIST = True  
 
 # ---- utilities ----
 def get_local_ip() -> str:
@@ -62,7 +63,7 @@ def _release_robot(r: SO101Follower):
     """Release robot if not using persistent mode."""
     global _ROBOT
     if _PERSIST:
-        return  # keep alive
+        return 
     try:
         r.disconnect()
     except Exception:
@@ -251,3 +252,4 @@ if __name__ == "__main__":
     # Single extra line for your convenience; MCP prints its own banner.
     print(f" Network URL (LAN): http://{get_local_ip()}:8000")
     mcp.run("sse")
+    # mcp.run("stdio")
